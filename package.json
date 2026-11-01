@@ -1,0 +1,9 @@
+{
+  "name": "job-queue-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A deterministic single-worker queue simulation for learning scheduling and retries.",
+  "scripts": {"test": "node --test tests/queue.test.js", "demo": "node cli.js examples/scenario.json"},
+  "engines": {"node": ">=20"},
+  "license": "MIT"
+}

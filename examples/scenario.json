@@ -1,0 +1,11 @@
+{
+  "policy": "priority",
+  "maxAttempts": 3,
+  "retryDelay": 1,
+  "agingInterval": 3,
+  "jobs": [
+    {"id": "report", "priority": 1, "arrival": 0, "failures": 1},
+    {"id": "email", "priority": 3, "arrival": 0, "failures": 0},
+    {"id": "broken", "priority": 0, "arrival": 1, "failures": 5}
+  ]
+}
